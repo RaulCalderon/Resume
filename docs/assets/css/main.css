@@ -1520,6 +1520,11 @@ section,
   transition: transform 0.3s ease;
 }
 
+.cert-img{
+  width: 300px;
+  display: flex;
+}
+
 .profile-image:hover {
   transform: scale(1.05);
 }
