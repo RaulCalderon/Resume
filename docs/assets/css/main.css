@@ -1454,9 +1454,9 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+/* .starter-section {
+  # Add your styles here 
+} */
 
 /*--------------------------------------------------------------
 # Modern Hero Banner Styles
@@ -1523,6 +1523,18 @@ section,
 .cert-img{
   width: 300px;
   display: flex;
+}
+
+@media (max-width: 991px){
+  .resume-item{
+    text-align: center;
+  }
+  .cert-img{
+    display: inline;
+  }
+  .resume .resume-item h5{
+    display: block;
+  }
 }
 
 .profile-image:hover {
