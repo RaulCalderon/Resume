@@ -204,6 +204,23 @@
     }
   });
 
+  /** 
+   * Dynamic modal images
+   */
+  const images = document.querySelectorAll(".cert-img");
+  const modal = document.getElementById("myModal");
+  const modalImg = document.getElementById("modalImage");
+   images.forEach(img => {
+     img.addEventListener("click", () => {
+      modal.style.display = "flex";
+      modalImg.src = img.src;  // <-- aquí está lo dinámico
+     });
+   });
+
+  close.onclick = () => {
+    modal.style.display = "none";
+  };
+
   /**
    * Navmenu Scrollspy
    */

@@ -1523,6 +1523,15 @@ section,
 .cert-img{
   width: 300px;
   display: flex;
+  cursor: pointer;
+}
+
+#modalImage{
+  width: 100%;
+}
+
+.modal-dialog{
+  max-width: 800px;
 }
 
 @media (max-width: 991px){
