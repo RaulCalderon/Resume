@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+  }
+  
+  body {
+    background: #0e0e0e;
+    color: #f2f2f2;
+    line-height: 1.6;
+  }
+  
+  /* HERO */
+  .hero {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #bbb;
+  }
+  
+  /* INFLUENCER */
+  .influencer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px 20px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .media img,
+  .media video {
+    width: 320px;
+    border-radius: 12px;
+  }
+  
+  .info {
+    max-width: 500px;
+  }
+  
+  .info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .story {
+    color: #ccc;
+  }
+  
+  /* GALERÍA */
+  .gallery {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    margin-bottom: 30px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .grid img,
+  .grid video {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* CONTACTO */
+  .contact {
+    padding: 60px 20px;
+    text-align: center;
+    color: #aaa;
+  }
+  
+  .contact a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #444;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+  
