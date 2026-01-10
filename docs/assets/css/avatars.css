@@ -27,6 +27,51 @@
     margin: 0 auto;
     color: #bbb;
   }
+
+  /* AUTOMATION */
+  .automation {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .automation h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .automation p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #bbb;
+  }
+  
+  .automation .influencer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .automation .media {
+    flex: 1 1 280px;
+    max-width: 350px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .automation .media img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: contain;
+    display: block;
+  }
   
   /* INFLUENCER */
   .influencer {
@@ -171,5 +216,55 @@
     border: 1px solid #444;
     padding: 10px 20px;
     border-radius: 6px;
+  }
+  
+  /* RESPONSIVE DESIGN */
+  @media (max-width: 768px) {
+    .automation h1 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    
+    .automation .influencer {
+      gap: 20px;
+      padding: 30px 15px;
+    }
+    
+    .automation .media {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+    
+    .automation .media img {
+      max-width: 100%;
+    }
+    
+    .hero h1,
+    .automation h1 {
+      font-size: 1.8rem;
+    }
+    
+    .influencer {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .media img,
+    .media video {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .automation .influencer {
+      gap: 15px;
+      padding: 20px 10px;
+    }
+    
+    .automation h1 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
   }
   
